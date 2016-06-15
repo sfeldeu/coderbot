@@ -62,7 +62,7 @@ app.shutdown_requested = False
 def get_locale():
     # otherwise try to guess the language from the user accept
     # header the browser transmits.
-    loc = request.accept_languages.best_match(['it', 'en', 'fr', 'es'])
+    loc = request.accept_languages.best_match(['it', 'en', 'fr', 'es', 'de'])
     if loc is None:
       loc = 'en'
     return loc
