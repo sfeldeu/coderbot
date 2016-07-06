@@ -31,6 +31,7 @@ Blockly.Msg.CODERBOT_LOCALE_EN = "English";
 Blockly.Msg.CODERBOT_LOCALE_IT = "Italian";
 Blockly.Msg.CODERBOT_LOCALE_FR = "French";
 Blockly.Msg.CODERBOT_LOCALE_ES = "Spanish";
+Blockly.Msg.CODERBOT_LOCALE_DE = "German";
 Blockly.Msg.CODERBOT_PHOTO_TAKE = "take photo";
 Blockly.Msg.CODERBOT_VIDEO_REC = "video rec";
 Blockly.Msg.CODERBOT_VIDEO_STOP = "video stop";

@@ -195,7 +195,9 @@ Blockly.Blocks['coderbot_audio_say'] = {
     vi.appendField(new Blockly.FieldDropdown([[Blockly.Msg.CODERBOT_LOCALE_EN, 'en'],
 			                      [Blockly.Msg.CODERBOT_LOCALE_IT, 'it'],
                                               [Blockly.Msg.CODERBOT_LOCALE_FR, 'fr'],
-					      [Blockly.Msg.CODERBOT_LOCALE_ES, 'es']]), 'LOCALE')
+					      [Blockly.Msg.CODERBOT_LOCALE_ES, 'es'],
+					      [Blockly.Msg.CODERBOT_LOCALE_DE, 'de']
+					      ]), 'LOCALE')
 
     this.setPreviousStatement(true);
     this.setNextStatement(true);
